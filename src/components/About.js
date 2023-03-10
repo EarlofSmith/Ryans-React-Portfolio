@@ -1,4 +1,6 @@
 import React from "react";
+// add profile photo here
+// import profileImage from '';
 
 function About() {
     return (
@@ -10,9 +12,9 @@ function About() {
           </div>
           <div className="flex-row">
             <div class="intro-info">
-              <div class="intro-img">
+              {/* <div class="intro-img">
                 <img src={profileImage} style={{ width: "100%" }} alt="profile" />
-              </div>
+              </div> */}
               <p>
                 Hi my name is Ryan.
               </p>

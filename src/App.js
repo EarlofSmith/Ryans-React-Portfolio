@@ -1,8 +1,9 @@
 import './App.css';
-import Header from '../src/components/Header';
+import Header from './components/Header'
 import About from '../src/components/About';
+import Footer from './components/Footer';
 import React, { useState } from "react";
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 
 function App() {
@@ -27,9 +28,9 @@ function App() {
 
   return (
     <>
-      <HelmetProvider>
-        <title>Lindsey Martin's Portfolio | {currentPage} </title>
-      </HelmetProvider>
+      <Helmet>
+        <title>Ryan Smith's Portfolio | {currentPage} </title>
+      </Helmet>
       ;
       <Header
         currentPage={currentPage}
