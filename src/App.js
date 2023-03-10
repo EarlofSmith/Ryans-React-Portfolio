@@ -1,10 +1,11 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import Header from '../src/components/Header';
+import About from '../src/components/About';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="Ryan's React Portfolio">
+      <Header />
     </div>
   );
 }

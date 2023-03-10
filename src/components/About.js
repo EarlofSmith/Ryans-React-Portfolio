@@ -1,6 +1,6 @@
 import React from "react";
 
-const About =() => {
+function About() {
     return (
         <section id="about-me" className="my-5 intro">
           <div class="flex-row">
