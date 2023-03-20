@@ -4,6 +4,7 @@ import About from '../src/components/About';
 import Footer from './components/Footer';
 import React, { useState } from "react";
 import { Helmet } from 'react-helmet';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
     if (currentPage === "About") {
       return <About />;
     }
-    // if (currentPage === "Contact") {
-    //   return <Contact />;
-    // }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
     // if (currentPage === "Portfolio") {
     //   return <Portfolio />;
     // }
