@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import React, { useState } from "react";
 import { Helmet } from 'react-helmet';
 import Contact from './components/Contact';
+import Project from './components/Project';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -18,12 +20,12 @@ function App() {
     if (currentPage === "Contact") {
       return <Contact />;
     }
-    // if (currentPage === "Portfolio") {
-    //   return <Portfolio />;
-    // }
-    // if (currentPage === "Resume") {
-    //   return <Resume />;
-    // }
+    if (currentPage === "Project") {
+      return <Project />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
     return <About />;
   };
 

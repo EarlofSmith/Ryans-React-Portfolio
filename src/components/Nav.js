@@ -23,10 +23,10 @@ function Nav(props) {
         </li>
         <li className="nav-item">
           <a
-            href="#portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            href="#Project"
+            onClick={() => handlePageChange('Project')}
+            // Check to see if the currentPage is `Project`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
           </a>
