@@ -13,10 +13,10 @@ function About() {
           <div className="flex-row">
             <div >
               <div >
-                <img src={profileImage} style={{ width: "80%" }} alt="profile" />
+                <img src={profileImage} style={{ width: "65%" }} alt="profile" />
               </div>
               <p>
-                Hi my name is Ryan.
+                Hi my name is Ryan. I am a fullstack developer who trained with a bootcamp through Denver University.
               </p>
             </div>
           </div>
