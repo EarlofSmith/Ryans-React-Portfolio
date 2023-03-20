@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ryans-React-Portfolio/static/css/main.2036578e.css",
+    "main.js": "/Ryans-React-Portfolio/static/js/main.cc9d3438.js",
+    "static/media/background.JPG": "/Ryans-React-Portfolio/static/media/background.bc2bc94f16398ca327d7.JPG",
+    "static/media/avs.JPG": "/Ryans-React-Portfolio/static/media/avs.5f9b99d482cebd5781b9.JPG",
+    "static/media/coors-field.JPG": "/Ryans-React-Portfolio/static/media/coors-field.7daefe8142f48bc928b6.JPG",
+    "static/media/head-shot.JPG": "/Ryans-React-Portfolio/static/media/head-shot.529cd405e37ad4aaf9ab.JPG",
+    "static/media/group-project1-screenshot.png": "/Ryans-React-Portfolio/static/media/group-project1-screenshot.746a996c8724096f5511.png",
+    "static/media/deployed-page.png": "/Ryans-React-Portfolio/static/media/deployed-page.5ef784a8dfd30f8ede19.png",
+    "static/media/text-editor.png": "/Ryans-React-Portfolio/static/media/text-editor.4cf449e6cc20915733b0.png",
+    "static/media/tech-blog.png": "/Ryans-React-Portfolio/static/media/tech-blog.fe27246b7607ba60b5db.png",
+    "index.html": "/Ryans-React-Portfolio/index.html",
+    "main.2036578e.css.map": "/Ryans-React-Portfolio/static/css/main.2036578e.css.map",
+    "main.cc9d3438.js.map": "/Ryans-React-Portfolio/static/js/main.cc9d3438.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2036578e.css",
+    "static/js/main.cc9d3438.js"
+  ]
+}
