@@ -35,7 +35,7 @@ function App() {
       <Helmet>
         <title>Ryan Smith's Portfolio | {currentPage} </title>
       </Helmet>
-      ;
+      
       <Header
         currentPage={currentPage}
         handlePageChange={handlePageChange}

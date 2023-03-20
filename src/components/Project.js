@@ -10,7 +10,7 @@ function Project(props) {
               <div className="card-image">
                 <figure className="image is-4by3">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+                    <img style={{width: '70%'}} src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
                   </a>
                 </figure>
               </div>
@@ -34,7 +34,7 @@ function Project(props) {
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Repo!
+                        Click here for the Repo!
                       </a>
                       <br />
                       <a
@@ -42,7 +42,7 @@ function Project(props) {
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Live Site!
+                        Click here for the Live Site!
                       </a>
                       <br />
                       <br />

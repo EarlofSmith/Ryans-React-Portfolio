@@ -38,8 +38,9 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
-  text-shadow: 1px 1px white;
-  color: black;
+  text-shadow: 1px 1px black;
+  color: white;
+  font-size: large;
 }
 
 .nav {
@@ -48,9 +49,40 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-shadow: 2px 2px black;
+  flex-wrap: wrap;
   
 
 }
 h1{
-  font-size: x-large;
+  font-size: 150%;
+}
+
+.nav-item {
+
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+}
+
+.contact {
+  background-image: url('../src/assets/images/avs.JPG');
+  background-size:contain;
+  background-position:bottom;
+  background-attachment: fixed;
+  background-position: 80%;
+  text-shadow: 2px 2px black;
+}
+
+.card-footer-item {
+  text-decoration: none;
+  color: white;
+}
+
+.image {
+  width: 60%;;
 }

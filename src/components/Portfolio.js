@@ -10,7 +10,7 @@ const projects = [
     {
         id:0,
         title: 'Sweet Solution',
-        image: {sweetImg},
+        image: '/images/deployed-page.png',
         description: 'This application was designed so that a bakery could have and interactive website for their clients. The page allows users to log in and out view products and make orders.',
         repo: 'https://github.com/EarlofSmith/sweet-solution',
         live: 'https://sweet-solution.herokuapp.com/'
@@ -18,7 +18,7 @@ const projects = [
     {
         id:1,
         title: "Coder's Cuisine",
-        image: {coderCuisine},
+        image: '/images/group-project1-screenshot.png',
         description: "Coder's Cuisine is a website designed for people that have specific dietary restrictions or items at home that they want to use and need a new recipe! This website gives people more variety for the ingredients they usually use at home without having to make an extra trip to the grocery store.",
         repo: 'https://github.com/annapng/Project1',
         live: 'https://annapng.github.io/Project1/',  
@@ -26,7 +26,7 @@ const projects = [
     {
         id:2,
         title: "text-editor-pwa",
-        image: {textEditor},
+        image: '/images/text-editor.png',
         description: 'This project allows you to create notes or code snippets with or without ann internet connection',
         repo: 'https://github.com/EarlofSmith/text-editor-pwa',
         live: 'https://jate-text-editors.herokuapp.com/',
@@ -34,7 +34,7 @@ const projects = [
     {
         id:3,
         title: 'tech-blog',
-        image: {techBlog},
+        image: '/images/tech-blog.png',
         description:'This is a cms style blog site. It allows a user to be created and then post blogs and comments.',
         repo: 'https://github.com/EarlofSmith/tech-blog',
         live: 'https://tech-blogs1.herokuapp.com/dashboard',
