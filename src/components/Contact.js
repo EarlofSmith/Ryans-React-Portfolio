@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../utils/helpers";
 
 
 function Contact() {
@@ -46,7 +47,7 @@ function Contact() {
               <address>
                 Denver, Co <br />
                 <br />
-                E:{" "}
+                Email:{" "}
                 <a href="mailto://r1smith3333@gmail.com">
                   r1smith3333@gmail.com
                 </a>

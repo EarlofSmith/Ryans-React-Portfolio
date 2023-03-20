@@ -5,12 +5,13 @@ import Footer from './components/Footer';
 import React, { useState } from "react";
 import { Helmet } from 'react-helmet';
 import Contact from './components/Contact';
-import Project from './components/Project';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
   const [currentPage, handlePageChange] = useState("about");
+  console.log(currentPage);
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
@@ -20,8 +21,8 @@ function App() {
     if (currentPage === "Contact") {
       return <Contact />;
     }
-    if (currentPage === "Project") {
-      return <Project />;
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
     if (currentPage === "Resume") {
       return <Resume />;

@@ -2,19 +2,19 @@ import React from "react";
 import Nav from "./Nav";
 
 function Header(props) {
-  const { currentTab, handleTabChange } = props;
+  const { currentPage, handlePageChange } = props;
 
   return (
     <div>
       <section>
-        <header className="flex-row px-1">
+        <header className="">
           <div>
             <h1>Ryan Smith's Portfolio</h1>
           </div>
           <div>
             <Nav
-              currentTab={currentTab}
-              handleTabChange={handleTabChange}
+              currentPage={currentPage}
+              handlePageChange={handlePageChange}
             ></Nav>
           </div>
         </header>

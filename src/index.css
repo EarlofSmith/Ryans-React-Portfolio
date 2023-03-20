@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  padding: 20px 35px;
+  display: flexbox;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../src/assets/images/background.JPG");
+  background-size:contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  text-shadow: 1px 1px black;
+  font-size: larger;
+}
+
+.portfolio{
+  background-image: url('../src/assets/images/coors-field.JPG');
+  background-size:contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  text-shadow: 1px 1px white;
+  color: black;
+}
+
+.nav {
+  font-size:larger;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+h1{
+  font-size: x-large;
 }

@@ -18,7 +18,7 @@ function Project(props) {
                 <div className="media">
                   <div className="media-left"></div>
                   <div className="media-content">
-                    <p className="title is-4" key={project.id}>
+                    <p className="title is-4" class='fs-2' key={project.id}>
                       {project.title}
                     </p>
                   </div>
@@ -26,13 +26,7 @@ function Project(props) {
 
                 <div className="content has-text-left">
                   {project.description}
-                  <br />
-                  <br />
-                  <div className="content is-family-code">
-                    Languages: {project.languages}
-                    <br />
-                    NPM Packages: {project.packages}
-                  </div>
+                  
                   <div className="card">
                     <footer className="card-footer">
                       <a
@@ -50,6 +44,9 @@ function Project(props) {
                       >
                         See the Live Site!
                       </a>
+                      <br />
+                      <br />
+                     
                     </footer>
                   </div>
                 </div>
