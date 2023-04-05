@@ -8,6 +8,14 @@ import techBlog from '../assets/images/tech-blog.png'
 
 const projects = [
     {
+        id:0,
+        title: 'Code-Collective',
+        image: '/images/code-collective.png',
+        description: 'This application was designed so that we as a class can stay connected on a platform of our own design.',
+        repo: 'https://github.com/jcg0/code-collective-project-3',
+        live: 'https://code-collectives.herokuapp.com/'
+    },
+    {
         id:4,
         title: 'Sweet Solution',
         image: '/images/deployed-page.png',
@@ -38,15 +46,8 @@ const projects = [
         description:'This is a cms style blog site. It allows a user to be created and then post blogs and comments.',
         repo: 'https://github.com/EarlofSmith/tech-blog',
         live: 'https://tech-blogs1.herokuapp.com/dashboard',
-    },
-    {
-        id:0,
-        title: 'Code-Collective',
-        image: '/images/code-collective.png',
-        description: 'This application was designed so that we as a class can stay connected on a platform of our own design.',
-        repo: 'https://github.com/jcg0/code-collective-project-3',
-        live: 'https://code-collectives.herokuapp.com/'
     }
+    
 ];
 
 function Portfolio() {
