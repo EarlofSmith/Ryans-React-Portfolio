@@ -13,7 +13,7 @@ function Footer() {
                 <VscGithubInverted />
               </li>
             </a>
-            <a href="https://www.linkedin.com">
+            <a href="https://www.linkedin.com/in/ryanearlsmith/">
               <li className="logo">
                 <CiLinkedin />
               </li>
