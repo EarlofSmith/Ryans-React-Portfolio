@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ryans-React-Portfolio/static/css/main.2036578e.css",
-    "main.js": "/Ryans-React-Portfolio/static/js/main.da0a2e91.js",
+    "main.js": "/Ryans-React-Portfolio/static/js/main.24053368.js",
     "static/media/background.JPG": "/Ryans-React-Portfolio/static/media/background.bc2bc94f16398ca327d7.JPG",
     "static/media/avs.JPG": "/Ryans-React-Portfolio/static/media/avs.5f9b99d482cebd5781b9.JPG",
     "static/media/coors-field.JPG": "/Ryans-React-Portfolio/static/media/coors-field.7daefe8142f48bc928b6.JPG",
@@ -12,10 +12,10 @@
     "static/media/tech-blog.png": "/Ryans-React-Portfolio/static/media/tech-blog.fe27246b7607ba60b5db.png",
     "index.html": "/Ryans-React-Portfolio/index.html",
     "main.2036578e.css.map": "/Ryans-React-Portfolio/static/css/main.2036578e.css.map",
-    "main.da0a2e91.js.map": "/Ryans-React-Portfolio/static/js/main.da0a2e91.js.map"
+    "main.24053368.js.map": "/Ryans-React-Portfolio/static/js/main.24053368.js.map"
   },
   "entrypoints": [
     "static/css/main.2036578e.css",
-    "static/js/main.da0a2e91.js"
+    "static/js/main.24053368.js"
   ]
 }
