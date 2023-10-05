@@ -8,7 +8,7 @@ function Resume() {
             <hr />
     
             <a
-              className="button is-primary"
+              className="button is-primary" 
               href={process.env.PUBLIC_URL + "/images/resume.pdf"}
               target="_blank" rel="noreferrer"
             >

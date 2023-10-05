@@ -5,20 +5,21 @@ import {CiLinkedin} from 'react-icons/ci';
 function Footer() {
     return (
         <footer>
-        <h2>Made by Ryan Smith</h2>
+        
         <p>
-          <ul>
+          <div>
             <a href="https://github.com/EarlofSmith">
               <li className="logo">
                 <VscGithubInverted />
               </li>
             </a>
+            <div>Made by Ryan Smith</div>
             <a href="https://www.linkedin.com/in/ryanearlsmith/">
               <li className="logo">
                 <CiLinkedin />
               </li>
             </a>
-          </ul>
+          </div>
         </p>
       </footer>
     );

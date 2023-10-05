@@ -21,7 +21,7 @@ const projects = [
         image: '/images/deployed-page.png',
         description: 'This application was designed so that a bakery could have and interactive website for their clients. The page allows users to log in and out view products and make orders.',
         repo: 'https://github.com/EarlofSmith/sweet-solution',
-        live: 'https://sweet-solution.herokuapp.com/'
+        live: ' https://sweet-solution-d664223c597a.herokuapp.com/'
     },
     {
         id:1,
